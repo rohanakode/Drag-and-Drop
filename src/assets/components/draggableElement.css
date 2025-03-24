@@ -1,0 +1,54 @@
+.draggable-element {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  cursor: grab;
+  transition: box-shadow 0.3s ease;
+  position: relative; 
+}
+
+.draggable-element:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.draggable-text {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+}
+
+.draggable-image {
+  max-width: 100%; 
+  max-height: 100%;
+  border-radius: 5px;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.draggable-button {
+  padding: 8px 15px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.draggable-button:hover {
+  background-color: #2980b9;
+}
