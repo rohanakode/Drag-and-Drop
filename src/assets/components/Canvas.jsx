@@ -1,7 +1,7 @@
 import React from "react";
 import { useDroppable } from "@dnd-kit/core";
 import DraggableElement from "./DraggableElement";
-import "./canvas.css";
+import "./Canvas.css";
 
 const Canvas = ({ elements, setElements, selectElement }) => {
   const { setNodeRef } = useDroppable({ id: "canvas" });
